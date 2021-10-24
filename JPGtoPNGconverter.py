@@ -22,7 +22,6 @@ for filename in os.listdir(image_folder):
         #save to the new folder
         img.save(f'{output_folder}{clean_name}.png','png')
         #save to the new folder
-        # complete_name = os.path.join(new_path, filename)
         continue
     else:
         continue
